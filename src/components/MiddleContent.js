@@ -1,16 +1,15 @@
 // Repo2/src/components/MiddleContent.js
-import React from 'react';
-import { View, Text, StyleSheet, Button, Alert } from 'react-native';
+import { Alert, Button, StyleSheet, Text, View } from 'react-native';
 
 export default function MiddleContent() {
   const handlePress = () => {
-    Alert.alert("Hello from Repo 2!");
+    Alert.alert("Hello from Repo 2 updated!");
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Middle content from Repo 2</Text>
-      <Button title="Click Me" onPress={handlePress} />
+      <Button title="Click Me updated" onPress={handlePress} />
     </View>
   );
 }
